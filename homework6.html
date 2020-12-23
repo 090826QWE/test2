@@ -1,0 +1,17 @@
+<html>
+<head>
+<script>
+x=5;
+function change(){
+	x++;
+	if (x>15){
+		x=5;
+	}
+	 document.getElementById("photo").src=x+".png";
+	}
+</script>
+</head>
+<body>
+<img id="photo" src='5.png' onclick="change()">
+</body>
+</html>
